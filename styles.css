@@ -1,0 +1,21 @@
+.parent-flex {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* this selector selects all divs inside of .flex-container */
+  .parent-flex div {
+    
+    border: 1px solid brown;
+    height: 100px;
+    width: auto;
+    flex: 1 1 2;
+  }
+
+  .header {
+    background-color: #1f2937;
+  }
+
+  .three {
+    background-color: #9eacc9;
+  }
