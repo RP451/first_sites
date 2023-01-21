@@ -1,21 +1,38 @@
-.parent-flex {
-    display: flex;
-    flex-direction: column;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
   
-  /* this selector selects all divs inside of .flex-container */
-  .parent-flex div {
-    
-    border: 1px solid brown;
-    height: 100px;
-    width: auto;
-    flex: 1 1 2;
+  .menu-container {
+    display: flex;
+    /* color: #fff; */
+    background-color: #1f2937; 
+    padding: 20px 0;
+    justify-content: center;
+  }
+  
+  .menu {
+   /* border: 1px solid #fff;*/
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
   }
 
-  .header {
-    background-color: #1f2937;
+  .date {
+    color: aquamarine;
   }
 
-  .three {
-    background-color: #9eacc9;
+  .links {
+   /* border: 1px solid #fff;  /* For debugging */
+    display: flex;
+    color: aqua;
+    justify-content: flex-end;
+  }
+  
+  .aboutus{
+    margin-left: 20px;
+  }
+  .login {
+    margin-left: 20px;
   }
