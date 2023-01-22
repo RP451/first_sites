@@ -36,3 +36,33 @@
   .login {
     margin-left: 20px;
   }
+
+
+  .header-container {
+    display: flex;
+    /* color: #fff; */
+    background-color: #1473f7; 
+    padding: 20px 0;
+    justify-content: center;
+  }
+
+  .site-desc {
+    /* border: 1px solid #fff;*/
+     width: 900px;
+     display: flex;
+     justify-content: flex-start;
+     
+   }
+
+   .desc-container{
+    justify-content: column;
+   }
+
+   .site-img {
+    display: flex;
+    justify-content: flex-start;
+   }
+
+   
+
+  
