@@ -86,19 +86,43 @@
    .body-grid{
     display: flex;
     border: black solid;
-    width: 900px;
+    width: 1000px;
     justify-content: space-around;
-    padding: 15px;
+    padding: 30px;
     flex-wrap: wrap;
    }
 
    .grid-item{
     display: flex;
     border: 1px solid #fff;
-    width: 100px;
-    height: 100px;
-    padding: 10px;
+    width: 200px;
+    height: 200px;
+    padding: 30px;
    }
    
+
+   .body2-container{
+    display: flex;
+    height: 200px;
+    background-color: #1473f7; 
+    padding: 20px 0;
+    flex-direction: row;
+    justify-content: center;
+   }
+
+   .body2-child-container{
+    display: flex;
+    padding: 20px;
+    border: black solid;
+    width: 1000px;
+   }
+
+   .footer-container{
+    display: flex;
+    /* color: #fff; */
+    background-color: #1f2937; 
+    padding: 20px 0;
+    justify-content: center;
+   }
 
   
